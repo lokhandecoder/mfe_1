@@ -1,0 +1,39 @@
+/* Pagination Container */
+.pagination-container {
+    display: flex;
+    justify-content: right;
+    /* align-items: center; */
+    margin-top: 20px;
+  }
+  
+  /* Pagination Buttons */
+  .pagination-button {
+    cursor: pointer;
+    padding: 8px 12px;
+    margin: 0 5px;
+    border: 1px solid #333;
+    border-radius: 4px;
+    background-color: #f0f0f0;
+    user-select: none;
+  }
+  
+  /* Input Field */
+  .pagination-input {
+    width: 40px;
+    padding: 8px;
+    margin: 0 5px;
+    border: 1px solid #333;
+    border-radius: 4px;
+    text-align: center;
+  }
+  
+  /* Active Page Styling */
+  .active-page {
+    background-color: #3498db;
+    color: #fff;
+  }
+  
+  /* Hover Effect on Buttons */
+  .pagination-button:hover {
+    background-color: #ddd;
+  }
